@@ -12,6 +12,9 @@ namespace ConsoleApp1
             c.ClearData();
             double[][] zadatak2 = RandomGenerator.GetInstance().GetMatrix(5,5);
             double[][] zadatak2a = RandomGenerator.GetMatrixStatic(5, 5);
+            logger.SetInstance("C:\\Users\\Nune\\Documents\\zadatak3.txt");
+            logger.logstatic("heheheh");
+            logger.GetInstance().log("zadatak3");
         }
     }
 }
